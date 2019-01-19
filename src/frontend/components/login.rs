@@ -40,7 +40,7 @@ impl Component for LoginComponent {
     type Properties = ();
 
     /// Initialization routine
-    fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
+    fn create(_: Self::Properties, mut link: ComponentLink<Self>) -> Self {
         Self {
             router_agent: RouterAgent::bridge(link.send_back(|route| Message::HandleRoute(route))),
             username: String::new(),

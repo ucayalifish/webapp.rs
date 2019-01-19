@@ -36,7 +36,7 @@ impl Component for RootComponent {
     type Message = Message;
     type Properties = ();
 
-    fn create(_: Self::Properties, link: ComponentLink<Self>) -> Self {
+    fn create(_: Self::Properties, mut link: ComponentLink<Self>) -> Self {
         Self {
             router_agent: RouterAgent::bridge(link.send_back(|route| Message::HandleRoute(route))),
             child_component: RouterComponent::Loading,
