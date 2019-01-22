@@ -3,5 +3,4 @@
 .*/target/
 .gdb_history
 target/
-target/
 workspace.xml
