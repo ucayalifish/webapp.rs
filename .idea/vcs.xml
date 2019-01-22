@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/target/debug/build/webapp-1d9dd4ae240ad8fb/out/uikit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/target/release/build/webapp-c7d7a49c146613ad/out/uikit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/target/wasm32-unknown-unknown/release/build/webapp-1113cf18ad9b74f5/out/uikit" vcs="Git" />
+  </component>
+</project>
